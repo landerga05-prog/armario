@@ -1,0 +1,27 @@
+{
+  "name": "armario",
+  "version": "0.1.0",
+  "description": "Escanea un outfit, recorta y encuentra cada prenda nueva o de segunda mano.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landerga05-prog/armario.git"
+  },
+  "bugs": {
+    "url": "https://github.com/landerga05-prog/armario/issues"
+  },
+  "homepage": "https://github.com/landerga05-prog/armario#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8"
+  },
+  "private": true,
+  "type": "module"
+}
