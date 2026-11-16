@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Armario" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icon-180.png" />
+    <title>Armario</title>
+  </head>
+  <body>
+    <main id="app"></main>
+    <nav class="tabbar">
+      <button data-tab="scan" class="active"><span>◎</span>Escanear</button>
+      <button data-tab="closet"><span>♡</span>Armario</button>
+      <button data-tab="settings"><span>⚙</span>Ajustes</button>
+    </nav>
+    <input id="file-camera" type="file" accept="image/*" capture="environment" hidden />
+    <input id="file-library" type="file" accept="image/*" hidden />
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
